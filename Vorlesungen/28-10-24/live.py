@@ -4,3 +4,5 @@ data = np.loadtxt("/home/bene/Documents/Code/kik-epp1/Vorlesungen/28-10-24/data.
 
 x = data[ : ,0:2 ] # : -> von bis (exklusiv)
 print (x)
+
+y = x
