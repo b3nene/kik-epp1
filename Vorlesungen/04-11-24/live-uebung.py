@@ -35,3 +35,10 @@ othervals = np.linspace(start_value,end_value, n)
 print(othervals)
 
 import pandas as pd 
+
+df = pd.DataFrame({
+    'Feature A': [1,2,8],
+    'Feature B': [2,5,8]
+})
+
+print(df)
