@@ -18,3 +18,20 @@ shape_parameters = {
 
 print(shape_parameters)
 print(shape_parameters["circle"])
+
+import numpy as np
+
+start_value = 0
+end_value = 50
+step = 1.75
+
+# Festgelegter Abstand step
+values = np.arange(start_value,end_value,step)
+print(values)
+
+#Festgelegte Zwischenschritte n
+n = 13
+othervals = np.linspace(start_value,end_value, n) 
+print(othervals)
+
+import pandas as pd 
