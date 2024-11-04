@@ -1,7 +1,7 @@
 # Methode für das Ausrechnen der Fakultät für n ohne Rekursion
 def factorial(n: int)-> int:
     if n<=0:
-        return none
+        return None
     result = n
     while n>1:
         result = result*(n-1)
